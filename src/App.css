@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Open+Sans:ital,wght@1,300&display=swap');
+body
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color:#0e111a;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 100;
+}
+
+.page-holder
+{
+    padding-left: 3%;
+    padding-right: 4%;
+    
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 2px;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.10);
+}
+.nav-bar-holder
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar-r
+{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.nav-bar-l
+{
+    padding-left: 3%;
+    padding-top: 28px;
+}
+
+.lang div
+{
+  padding:13px 20px;
+  background-color: #212b40;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.lang div i span
+{
+    padding-left: 10px;
+}
+
+.nav-bar-l-s
+{
+    display: flex;
+}
+
+.nav-bar-l-s div
+{
+  margin-left: 10px;
+  background-color:#212b40 ;
+  padding: 10px 45px;
+  height: 25px;
+  color: #2c73f8;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-top: 13px;
+}
+
+.nav-bar-l-s div:hover
+{
+ background-color: #2c73f8;
+ color: #ffffff;
+}
+
+.nav-one-input
+{
+    width: 800px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 10px;
+    border: none;
+    background-color:#212b40 ;
+    padding-left: 15px;
+}
+
+.sidenav {
+    margin-top: 100px;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-left: 7%;
+    overflow-x: hidden;
+    
+  }
+
+  .sidenav a {
+    padding-bottom: 5px;
+    padding-left: 25%;
+    text-decoration: none;
+    font-size: 13px;
+    color: #818181;
+    display: block;
+    text-align: left;
+    position: relative;
+  }
+  .sidenav a i
+  {
+    position: absolute;
+    top: 30%;
+    transform: translateX(-8px);
+    font-size: 5px;
+  }
+  
+  .sidenav a div i
+  {
+    position: absolute;
+    top: 30%;
+    transform: translateX(-30px);
+    font-size: 12px;
+  }
+
+  .side-nav-cat
+  {
+      padding-top: 10px;
+      color: #222636;
+  }
+
+  .side-bar-in div a
+  {
+      margin-top: 10px;
+  }
+
+  .side-bar-in div a i
+  {
+      font-size: 20px;
+      margin-right: 5px;
+  }
+  .side-bar-in div a 
+  {
+      font-size: 15px;
+      padding: 15px 25px;
+      padding-left: 50px;
+      padding-right: 60px;
+      border-radius: 15px;
+  }
+  .side-bar-in div a:hover
+  {
+      
+      background-color: #222636;
+  }
+
+  .side-bar-in
+  {
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .side-bottom img
+  {
+    width: 210px;
+  }
+
+  .side-bottom p
+  {
+      font-size: 10px;
+      color: #222636 ;
+  }
+ 
+  .movie-coll-h
+  {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+      margin-left: 18%;
+      margin-right: 4%;
+      padding-bottom: 10px;
+  }
+
+  .all-c
+  {
+      background-color: white;
+      color: black;
+      padding:3px 25px;
+      border-radius:10px;
+  }
+
+  .movie-coll-holder
+  {
+      display: flex;
+      justify-content: space-around;
+      margin-left: 15%;
+      margin-right: 2%;
+  }
+
+  .movie-coll-holder div
+  {
+    border-radius: 15px 15px 15px 15px;
+      background-color: #222636;
+      padding-left:0px ;
+      margin-right: 10px;
+
+  }
+
+  .movie-coll-holder div img
+  {
+      border-radius: 15px 15px 0px 0px;
+      width: 340px;
+      height: 130px;
+  }
+
+  .ac
+  {
+      
+      padding-left: 6%;
+      margin-bottom: 50px;
+  }
+  .ad
+  {
+    padding-left: 6%;
+    margin-bottom: 50px;
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .adv
+  {
+    margin-top: 15px; 
+    padding-bottom: 5px;
+  }
+  .adx
+  {
+      padding-bottom: 15px;
+  }
+  .main {
+    margin-left: 150px; 
+    padding: 0px 0px;
+  }
+  .main .image div img
+  {
+
+      border-radius: 15px 15px 15px 15px;
+      padding-left: 16%;
+      width: 80%;
+      height:300px ;
+      
+  }
+
+  .image
+  {
+      position: relative;
+  }
+  .inside-image
+  {
+    position: absolute;
+    top: 20%;
+    left: 16px;
+    padding-left: 25%;
+  }
+.image-p
+{
+    width: 50%;
+    font-size: 14px;
+}
+.image-h
+{
+    font-size: 40px;
+}
+.image-c
+{
+    font-size: 10px;
+}
+.image-b
+{
+    margin-top: 12px;
+    padding: 6px 40px;
+    background-color:rgba(100,100,100,0.4) ;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.nav-bar
+{
+  padding: 10px 3%;
+}
+
+.sidenav
+{
+  padding: 10px 8%;
+}
+
